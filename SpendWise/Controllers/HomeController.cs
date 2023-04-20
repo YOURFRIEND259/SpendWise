@@ -17,7 +17,10 @@ namespace SpendWise.Controllers
         {
             return View();
         }
-
+        public IActionResult Statistics()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
